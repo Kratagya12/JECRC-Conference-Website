@@ -1,0 +1,1039 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body {
+    font-family: 'EB Garamond', serif;
+    background: rgb(34, 4, 4);
+    background: linear-gradient(90deg, rgba(34, 4, 4, 1) 0%, rgba(68, 2, 2, 1) 52%, rgba(38, 4, 4, 1) 100%);
+    overflow-x: hidden;
+}
+
+.frontimg{
+    width: 150px; height: 150px; border-radius: 50%; border: 2px solid black;
+}
+
+.highlight{
+    background-color: white;
+    font-size: smaller;
+}
+
+.highlight strong{
+    
+    font-weight: bolder;
+    
+}
+
+.Launching{
+    display: flex;
+}
+
+.team_name{
+    color: azure;
+    background: rgb(34, 4, 4);
+    background: linear-gradient(90deg, rgba(34, 4, 4, 1) 0%, rgba(68, 2, 2, 1) 52%, rgba(38, 4, 4, 1) 100%);
+    font-size: large;
+    margin-right: 60px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.team img {
+    height: 300px;
+    width: 650px;
+    display: block;
+    margin-left: 15%;
+    margin-right: 80px;
+}
+
+
+
+/********************************************************************************/
+
+.G {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: rgb(41, 0, 0);
+    background: linear-gradient(90deg, rgba(41, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 53%, rgba(41, 0, 0, 1) 100%);
+    padding-bottom: 15px;
+}
+
+
+.G h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 3px 1px 5px #bcffe4;
+    font-weight: 600;
+
+}
+
+.G h1 {
+    color: azure;
+    text-align: center;
+    text-shadow: 3px 1px 5px #8cf9cd;
+    font-weight: 600;
+
+}
+
+.ghead {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.G img {
+    width: 450px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagess {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagess1 {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.imagess1 img {
+    width: 550px;
+    height: 350px;
+}
+
+
+.imagess1 img:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.imagess img:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+/********************************************************************************/
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none !important;
+    filter: none !important;
+}
+
+.ju_image {
+    background: rgb(41, 0, 0);
+    background: linear-gradient(90deg, rgba(41, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 53%, rgba(41, 0, 0, 1) 100%);
+}
+
+.ju_image img {
+    width: 800px;
+    height: 400px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 20px;
+
+}
+
+.ju_image_text {
+    text-align: justify;
+    color: azure;
+    padding: 5px 15px;
+    word-spacing: 3px;
+    padding-bottom: 25px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+
+
+.waviy {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
+    font-size: 40px;
+}
+
+.waviy span {
+    font-family: 'EB Garamond', serif;
+    position: relative;
+    display: inline-block;
+    color: #f0eaea;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+
+}
+
+@keyframes waviy {
+
+    0%,
+    40%,
+    100% {
+        transform: translateY(0)
+    }
+
+    20% {
+        transform: translateY(-20px)
+    }
+}
+
+.important-links {
+    background: rgb(251, 153, 203);
+    background: linear-gradient(90deg, rgba(251, 153, 203, 1) 0%, rgba(228, 228, 228, 1) 50%, rgba(122, 196, 247, 1) 100%);
+    margin-top: 10px;
+    text-align: center;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+
+
+header .important_links {
+    justify-content: center;
+}
+
+
+.logo {
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+    margin-right: 20px;
+    border-radius: 25px;
+
+}
+
+header {
+    padding-top: 10px;
+    flex: 1;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 58px;
+    background: rgb(251, 153, 203);
+    background: linear-gradient(90deg, rgba(251, 153, 203, 1) 0%, rgba(228, 228, 228, 1) 50%, rgba(122, 196, 247, 1) 100%);
+    margin-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    font-weight: 800;
+    font-size: larger;
+    overflow: hidden;
+}
+
+header {
+    content: '';
+    background-image: url("college_half_trans.png");
+    background-size: cover;
+    display: flexbox;
+    color: aliceblue;
+
+
+}
+
+header div {
+    display: flex;
+}
+
+.heady img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar ul a {
+    font-size: large;
+
+}
+
+.navbar-nav>li {
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+
+
+.heading1 {
+    justify-content: center;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    display: block;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.name {
+    color: #cc0000;
+}
+
+.ju_logo {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+
+
+.about_conference {
+    line-height: 5;
+    background: rgb(251, 153, 203);
+    background: linear-gradient(90deg, rgba(251, 153, 203, 1) 0%, rgba(228, 228, 228, 1) 50%, rgba(122, 196, 247, 1) 100%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+
+    word-spacing: 10px;
+}
+
+.about_conference:hover {
+
+    font-weight: 300;
+    background-image: linear-gradient(#005580, #0088cc);
+    color: azure;
+    transition: 0.5s;
+}
+
+.about_conference h5 {
+    text-align: justify;
+}
+
+.important_links {
+    padding-left: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.topics_heading {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.topics1 {
+    margin-left: 40px;
+    display: inline-flex;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.topics1 li{
+    font-size: 18px;
+}
+
+
+.topics {
+    background: rgb(251, 153, 203);
+    background: linear-gradient(90deg, rgba(251, 153, 203, 1) 0%, rgba(228, 228, 228, 1) 50%, rgba(122, 196, 247, 1) 100%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    transition: color 0.5s;
+}
+
+.topics:hover {
+    font-weight: 300;
+    background-image: linear-gradient(#005580, #0088cc);
+    color: azure;
+    transition: 0.5s;
+}
+
+.topics2 {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: inline-flex;
+    font-size: 20px;
+    font-weight: 200;
+
+}
+
+.advisory_committee {
+    background: rgb(251, 153, 203);
+    background: linear-gradient(90deg, rgba(251, 153, 203, 1) 0%, rgba(228, 228, 228, 1) 50%, rgba(122, 196, 247, 1) 100%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+    font-size: small;
+}
+
+.advisory_committee:hover {
+    font-weight: 300;
+    background-image: linear-gradient(#005580, #0088cc);
+    color: azure;
+    transition: 0.5s;
+}
+
+
+
+.speaker {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.speaker_cards {
+    background-color: #80d4ff;
+    border-style: solid;
+    border-width: 0.5px 0 0 0;
+    border-radius: 0.5%;
+    border-color: #090909;
+}
+
+.speaker_cards:hover {
+    font-weight: 300;
+    background: rgb(68, 68, 68);
+    background: linear-gradient(90deg, rgba(68, 68, 68, 1) 0%, rgba(15, 1, 1, 1) 100%);
+    color: azure;
+    transition: 0.5s;
+}
+
+#speaker {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s;
+}
+
+.navbar-brand {
+    color: #ff0000;
+    padding-left: 40px;
+}
+
+.about_ju {
+    background: rgb(251, 153, 203);
+    background: linear-gradient(90deg, rgba(251, 153, 203, 1) 0%, rgba(228, 228, 228, 1) 50%, rgba(122, 196, 247, 1) 100%);
+    margin-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    line-height: 5;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    color: black;
+    word-spacing: 6px;
+    font-size: small;
+}
+
+.about_ju:hover {
+    font-weight: 300;
+    background-image: linear-gradient(#005580, #0088cc);
+    color: azure;
+    transition: 0.5s;
+}
+
+.about_department {
+    background: rgb(251, 153, 203);
+    background: linear-gradient(90deg, rgba(251, 153, 203, 1) 0%, rgba(228, 228, 228, 1) 50%, rgba(122, 196, 247, 1) 100%);
+    margin-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    line-height: 5;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    color: black;
+    word-spacing: 6px;
+    font-size: small;
+}
+
+.about_department:hover {
+    font-weight: 300;
+    background-image: linear-gradient(#005580, #0088cc);
+    color: azure;
+    transition: 0.5s;
+}
+
+/********************************************************************************/
+.trial_speaker {
+    display: flex;
+    padding-left: 100px;
+    background-image: linear-gradient(#e6f7ff, #035178);
+    padding-top: 25px;
+    border-radius: 10px;
+}
+
+.trial_speaker:hover {
+
+    color: #090909;
+    transition: 0.5s;
+}
+
+.trial {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-right: 100px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border-radius: 10%;
+    text-align: center;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 175, 230, 1) 100%);
+    white-space: nowarp;
+
+}
+
+.trial img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding-top: 10px
+}
+
+.trial:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s;
+}
+
+.pratap {
+    text-overflow: ellipsis;
+    padding-bottom: 10px;
+    line-height: 1;
+}
+
+.pratap:hover {
+    overflow: visible;
+}
+
+
+/******************************************************************************************************/
+.cpname {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.cpname1 {
+    text-decoration: none;
+    text-align: center;
+    font-weight: 900;
+    text-decoration: solid;
+}
+
+.chiefpatrons {
+    background: rgb(251, 153, 203);
+    background: linear-gradient(90deg, rgba(251, 153, 203, 1) 0%, rgba(228, 228, 228, 1) 50%, rgba(122, 196, 247, 1) 100%);
+    margin-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    color: black;
+}
+
+.chiefpatrons:hover {
+    font-weight: 300;
+    background-image: linear-gradient(#005580, #0088cc);
+    color: azure;
+    transition: 0.5s;
+}
+
+.members {
+    display: flex;
+    text-decoration: none;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    padding-right: 40px;
+    color: black;
+    transition: color 0.5s;
+
+}
+
+.members:hover {
+    color: azure;
+}
+
+.members ul {
+    list-style-type: none;
+}
+
+.tourist img {
+    width: 500px;
+    height: 500px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.carousel {
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    text-shadow: #000000;
+}
+
+th{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.register {
+    background: rgb(251, 153, 203);
+    background: linear-gradient(90deg, rgba(251, 153, 203, 1) 0%, rgba(228, 228, 228, 1) 50%, rgba(122, 196, 247, 1) 100%);
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: larger;
+    color: black;
+}
+
+.address {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.address iframe {
+    width: 600px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+footer {
+    background: rgb(251, 153, 203);
+    background: linear-gradient(90deg, rgba(251, 153, 203, 1) 0%, rgba(228, 228, 228, 1) 50%, rgba(122, 196, 247, 1) 100%);
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.address img {
+    height: 300px;
+    width: 300px;
+    margin-left: 310px;
+}
+
+.sponsor {
+    background: rgb(251, 153, 203);
+    background: linear-gradient(90deg, rgba(251, 153, 203, 1) 0%, rgba(228, 228, 228, 1) 50%, rgba(122, 196, 247, 1) 100%);
+}
+
+.sponsor:hover {
+    font-weight: 300;
+    background-image: linear-gradient(#005580, #0088cc);
+    color: azure;
+    transition: 0.5s;
+}
+
+div.container.S {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.S1 {
+    padding-left: 50px;
+}
+
+
+/***************************************************************************************/
+
+/* Callout box - fixed position at the bottom of the page */
+.callout {
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    margin-left: 20px;
+    max-width: 300px;
+  }
+  
+  /* Callout header */
+  .callout-header {
+    padding: 25px 15px;
+    background:  #ffffff;
+    font-size: 30px;
+    color: white;
+    margin-right: 5px;
+  }
+  
+  /* Callout container/body */
+  .callout-container {
+    padding: 15px;
+    background-color: #fffefe;
+    color: black
+  }
+  
+  /* Close button */
+  .closebtn {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  /* Change color on mouse-over */
+  .closebtn:hover {
+    color: lightgrey;
+  }
+
+  .callout img{
+    width: 250px; height: 75px;
+  }
+
+  .acs{
+    display: flex;
+    color: black;
+    background: rgb(251, 153, 203);
+    background: linear-gradient(90deg, rgba(251, 153, 203, 1) 0%, rgba(228, 228, 228, 1) 50%, rgba(122, 196, 247, 1) 100%);
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .acs h4{
+    padding-top: 75px;
+    padding-right: 25px;
+  }
+
+
+  .date{
+    background-color: #00050a; text-align: center; width: 260px; margin-left: 225px;
+  }
+
+  .headdate{
+    color:  white;   font-weight: bold; padding-left: 35px;
+  }
+
+  
+
+/***************************************************************************************/
+
+
+@media (max-width: 550px) {
+
+    .S1 {
+        padding-left: 0px;
+    }
+
+    div.container.S {
+        display: block;
+    }
+
+    div.waviy span {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    li {
+        font-size: 10px;
+    }
+
+    img {
+        height: 150px;
+        width: 150px;
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+    h5 {
+        font-size: 11px;
+    }
+
+    h6 {
+        font-size: 10px;
+    }
+
+    body {
+        display: block;
+    }
+
+    .register {
+        display: block;
+        justify-content: center;
+        font-size: 0.6rem;
+    }
+
+    .register .container h4 h5 h6 {
+        font-size: 0.2rem;
+
+    }
+
+    .register img {
+        width: 150px;
+        height: 150px;
+        padding-left: 30px;
+
+    }
+
+    .address {
+        padding-top: 10px;
+    }
+
+    .address iframe {
+        height: 200px;
+        width: 200px;
+        margin-left: none;
+    }
+
+    .address img {
+        display: block;
+        margin-left: -20px;
+    }
+
+    .trial_speaker {
+        display: block;
+        padding-right: 20px;
+
+    }
+
+    .trial {
+        margin-right: 50px;
+    }
+
+    .about_conference h4 h5 {
+        font-size: 1.6vw;
+        text-align: left;
+        padding-left: 2px;
+        margin: auto;
+        word-spacing: normal;
+
+    }
+
+    .column {
+        width: 100%;
+        /* Set columns to full width on smaller screens */
+    }
+
+    img.ju_logo {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 0 0 0;
+
+        width: 100px;
+        height: 100px;
+       
+    }
+
+    div.ju_logo1 {
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .logo {
+        
+        width: 150px;
+        height: 150px;
+    }
+
+    img.logo {
+        margin: -80px 0 0 65px;
+        padding: 0 0 0 0;
+     }
+     div.logo{
+         margin: -10px 0 0 0;
+         padding: 0 0 0px 0;
+     }
+
+    div.heading1{
+        margin: -30px 0 0 -10px;
+        padding: 0 0 0 10px;
+    } 
+
+    header {
+        font-size: 14px;
+        display: inline-flex;
+    }
+
+    .trial_speaker {
+        display: block;
+        align-items: start;
+        padding-left: 40px;
+    }
+
+    .members {
+        overflow: hidden;
+        display: flex;
+    }
+
+    .name1 {
+        font-size: large;
+    }
+
+    
+   
+
+    .trial_speaker {
+        display: block;
+        padding-right: 50px;
+
+    }
+
+    .trial {
+        margin-left: 30px;
+        margin-right: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .trial img {
+        height: 100px;
+        width: 70px;
+    }
+
+    div.trial {
+        width: 150px;
+        height: 150px;
+        margin: 5px 20px 5px 65px;
+
+    }
+
+    div.trial_speaker {
+        margin-right: 5px;
+        padding: 5px 0 5px 0;
+    }
+
+    .ju_image img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .G h3 {
+        color: azure;
+        text-align: center;
+    }
+
+    .G img {
+        width: 250px;
+        height: 175px;
+        margin-top: auto;
+        margin-bottom: 8px;
+    }
+
+    .imagess {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagess1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .highlight{
+        background-color: white;
+        font-size: smaller;
+    }
+    
+    .highlight strong{
+        
+        font-weight: bolder;
+        
+    }
+    
+    .Launching{
+        display: block;
+    }
+    
+    .team_name{
+        color: azure;
+        background: rgb(34, 4, 4);
+        background: linear-gradient(90deg, rgba(34, 4, 4, 1) 0%, rgba(68, 2, 2, 1) 52%, rgba(38, 4, 4, 1) 100%);
+        font-size: large;
+        margin-right: 60px;
+        padding-left: 50px;
+        padding-top: 50px;
+        margin-left: 30px;
+    }
+    .team img {
+        height: 150px;
+        width: 250px;
+        display: block;
+        margin-left: 20%;
+        margin-right: 70px;
+    }
+
+    .frontimg{
+        width: 75px;
+        height: 75px;
+    }
+
+    .cpname {
+        display: block;
+        justify-content: space-around;
+    
+    }
+
+    .cpname1{
+        border-bottom: 2px solid black;
+        padding-top: 5px;
+    }
+
+    .date{
+        background-color: #00050a; text-align: center; width: 125px; margin-left: 105px;
+      }
+    
+      .headdate{
+        color:  white;   font-weight: bold; padding-left: 22px; padding-top: 5px;
+      }
+
+      th{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    
+
+}
